@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SuperMixins$Fog",
+    "SuperMixins$Hud",
+    "SuperMixins$Hand"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
