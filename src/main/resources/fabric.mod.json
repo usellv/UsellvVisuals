@@ -3,32 +3,14 @@
   "id": "supermod",
   "version": "1.0.0",
   "name": "UsellvVisuals",
-  "description": "Visuals, AutoSwap and Utils for 1.21",
-  "authors": [
-    "Usellv"
-  ],
-  "contact": {
-    "homepage": "https://github.com/usellv/UsellvVisuals",
-    "sources": "https://github.com/usellv/UsellvVisuals"
-  },
-  "license": "MIT",
-  "icon": "assets/supermod/icon.png",
-  "environment": "*",
   "entrypoints": {
-    "main": [
-      "com.example.SuperMod"
-    ],
-    "client": [
-      "com.example.SuperMod"
-    ]
+    "client": ["com.example.SuperMod"],
+    "main": ["com.example.SuperMod"]
   },
-  "mixins": [
-    "supermod.mixins.json"
-  ],
+  "mixins": ["supermod.mixins.json"],
   "depends": {
     "fabricloader": ">=0.15.11",
-    "minecraft": "~1.21",
-    "java": ">=21",
-    "fabric-api": "*"
+    "minecraft": "1.21",
+    "java": ">=21"
   }
 }
